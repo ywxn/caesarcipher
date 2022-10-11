@@ -52,10 +52,8 @@ int main() {
   }
 
   if (uiChoice == 'e'){
-    encode(message, key);
     cout << "Translated message:  " << encode(message, key) << endl;
   } else if (uiChoice == 'd'){
-    //decode(message, key);
     cout << "Translated message:  " << decode(message, key) << endl;
   }
   return 0;
